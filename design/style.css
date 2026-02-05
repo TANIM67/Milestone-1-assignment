@@ -199,7 +199,8 @@ nav{
 
     /* solution-section */
 .solution-section .solution-container{
-    width: 1360px;
+    max-width: 1360px;
+    width: 80%;
     margin: 120px auto;
     display: flex;
     /* background-color: aqua; */
@@ -247,4 +248,43 @@ nav{
     font-size: 16px;
     font-weight: 500;
 }
+    /* solution-section */
+
+    /* get access section */
+.get-access-section .get-access-container{
+    max-width: 1360px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: rgb(235, 236, 236);
+    text-align: center;
+}
+.get-access-section .get-access-container h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.get-access-section .get-access-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color : #627382;
+    margin-bottom: 24px;
+}
+.get-access-section .get-access-container button{
+    width: 194px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #30B868;
+    border: none;
+    margin-bottom: 16px;
+}
+.get-access-section .get-access-container button:hover{
+    background-color: #023c1a;
+    transform: scale(1.05);
+}
+    /* get access section */
+
+    
 
